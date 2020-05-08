@@ -40,6 +40,8 @@ void banker::send_request() {
                 need[request[0]][i] = old_need[request[0]][i];
                 available[i] = old_available[i];
             }
+            cout << "=====不存在安全序列=====" << endl;
+            cout << "=====申请资源失败=====" << endl;
         }
         else {
             //for (int i = 0; i < resource_num; i++){
@@ -60,10 +62,10 @@ void banker::send_request() {
         }
     }
     else {
+        cout << "=====剩余资源不足或该进程不需要这么多资源=====" << endl;
         cout << "=====申请资源失败=====" << endl;
     }
 }
-
 
 bool banker::safety_check() {
 	bool key = true;

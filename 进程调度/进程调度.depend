@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1575720861 source:c:\users\83470\desktop\cpp\进程调度\main.cpp
+	"PCB.h"
+	<iostream>
+	<cstdlib>
+	<list>
+
+1575717438 c:\users\83470\desktop\cpp\进程调度\pcb.h
+	<iostream>
+	<list>
+

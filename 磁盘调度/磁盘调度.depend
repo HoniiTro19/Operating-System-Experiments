@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1575790035 source:c:\users\83470\desktop\cpp\磁盘调度\main.cpp
+	"disk.h"
+	<iostream>
+	<cstdlib>
+	<list>
+
+1575783536 c:\users\83470\desktop\cpp\磁盘调度\include\disk.h
+	<iostream>
+	<list>
+
